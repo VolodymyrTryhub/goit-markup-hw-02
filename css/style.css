@@ -28,13 +28,7 @@ a {
 }
 
 .logotyp-studio {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    text-transform: uppercase;
     color: #2e2f42;
-    letter-spacing: 0.03em;
 }
 
 .menu-block-studio {
@@ -89,6 +83,10 @@ a {
     color: #404bbf;
 }
 
+.navigaciia-address {
+    font-style: normal;
+}
+
 .gaslo {
     background-color: #2e2f42;
 }
@@ -110,6 +108,7 @@ a {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
+    line-height: 1.5;
 }
 
 .button-tab:hover,
@@ -138,7 +137,7 @@ a {
     visibility: hidden;
 }
 
-#team {
+.team-comands {
     background-color: #f4f4fd;
 }
 
@@ -163,7 +162,7 @@ a {
     color: #2e2f42;
 }
 
-team-card-parag {
+.team-card-parag {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -179,7 +178,7 @@ team-card-parag {
     color: #2e2f42;
 }
 
-.portfolio-part-banking {
+.portfolio-part-app {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -192,11 +191,6 @@ team-card-parag {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-
-.footer-block {
-    background-color: #2e2f42;
 }
 
 .footer-block-web {

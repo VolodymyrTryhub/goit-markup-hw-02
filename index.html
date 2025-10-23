@@ -18,13 +18,18 @@
         <header class="header-block">
             <!-- navigaciia -->
             <nav>
-                <!-- logo -->
-                <a href="./index.html" class="logotyp-web">Web<span class="logotyp-studio">Studio</span></a>
                 <ul class="menu">
+                    <!-- logo -->
+                    <li>
+                        <a href="./index.html" 
+                            class="logotyp-web">Web<span 
+                            class="logotyp-studio">Studio</span>
+                        </a>
+                    </li>
                     <!--menu-->
-                    <li><a href="#studio" class="menu-block">Studio</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#studio" class="menu-block-studio">Studio</a></li>
+                    <li><a href="#portfolio" class="menu-bloke-portfolio">Portfolio</a></li>
+                    <li><a href="#contacts" class="menu-bloke-contacts">Contacts</a></li>
                 </ul>
             </nav>
             <!-- contacts -->
@@ -42,11 +47,9 @@
         </header>
     <main>
         <!-- gaslo -->
-        <section>
-            <div class="gaslo">
-                <h1 >Effective Solutions for Your Business</h1>
-                <button type="button" class="button-tab">Order Service</button>
-            </div>
+        <section class="gaslo">
+            <h1 class="title-gaslo">Effective Solutions for Your Business</h1>
+            <button type="button" class="button-tab">Order Service</button>
         </section>
 
         <section id="studio">
@@ -54,23 +57,23 @@
             <h2 class="visually-hidden">Values</h2>
             <ul>
                 <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    <h3 class="studio-criterion">Strategy</h3>
+                    <p class="studio-criterion-descrip">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
 
                 <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    <h3 class="studio-criterion">Punctuality</h3>
+                    <p class="studio-criterion-descrip">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
 
                 <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+                    <h3 class="studio-criterion">Diligence</h3>
+                    <p class="studio-criterion-descrip">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
                 </li>
 
                 <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    <h3 class="studio-criterion">Technologies</h3>
+                    <p class="studio-criterion-descrip">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
 
             </ul>
@@ -78,56 +81,56 @@
 
         <section id="team">
             <!--for our team-->
-            <h2>Our Team</h2>
-            <ul>
-                <li>
+            <h2 class="team-name">Our Team</h2>
+            <ul class="team-clast">
+                <li class="team-card">
                     <img 
                         src="./images/card1.jpg" 
                         alt="This is Mark Guerrero"
                         width="264"
                         height="260"
                     />
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <h3 class="team-card-name">Mark Guerrero</h3>
+                    <p class="team-card-parag">Product Designer</p>
                 </li>
 
-                <li>
+                <li class="team-card">
                     <img 
                         src="./images/card2.jpg" 
                         alt="This is Tom Ford"
                         width="264"
                         height="260"
                     />
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="team-card-name">Tom Ford</h3>
+                    <p class="team-card-parag">Frontend Developer</p>
                 </li>
 
-                <li>
+                <li class="team-card">
                     <img 
                         src="./images/card3.jpg" 
                         alt="This is Camila Garcia"
                         width="264"
                         height="260"
                     />
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <h3 class="team-card-name">Camila Garcia</h3>
+                    <p class="team-card-parag">Marketing</p>
                 </li>
 
-                <li>
+                <li class="team-card">
                     <img 
                         src="./images/card4.jpg" 
                         alt="This is Daniel Wilson"
                         width="264"
                         height="260"
                     />
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <h3 class="team-card-name">Daniel Wilson</h3>
+                    <p class="team-card-parag">UI Designer</p>
                 </li>
             </ul>
         </section>
         <section id="portfolio">
             <!--Our portfolio-->
-            <h2>Our Portfolio</h2>
+            <h2 class="portfolio-part">Our Portfolio</h2>
             <ul>
                 <li>
                     <img 
@@ -135,8 +138,8 @@
                         alt="This is banking app" 
                         width="360"
                     >
-                    <h3>banking app</h3>
-                    <p>app</p>
+                    <h3 id="app-first" class="portfolio-part-banking">banking app</h3>
+                    <p class="portfolio-part-banking-app">app</p>
                 </li>
                 <li>
                     <img 
@@ -189,7 +192,7 @@
 
     <footer class="footer-block">
         <a href="./index.html" class="footer-block-web">Web<span class="footer-block-studio">Studio</span></a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <p class="footer-block-paragraph">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
     
 </body>

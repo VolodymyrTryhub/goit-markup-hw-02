@@ -1,14 +1,11 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
-    line-height: 1.5;
 }
 
 ul, ol {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style-type: none; 
 }
 
 a {
@@ -27,6 +24,7 @@ a {
     line-height: 1.17;
     color: #4d5ae5;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .logotyp-studio {
@@ -36,15 +34,37 @@ a {
     line-height: 1.17;
     text-transform: uppercase;
     color: #2e2f42;
+    letter-spacing: 0.03em;
 }
 
-.menu {
+.menu-block-studio {
     text-decoration: none;
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     background-color: #ffffff;
     font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.menu-bloke-portfolio {
+    text-decoration: none;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.menu-bloke-contacts {
+    text-decoration: none;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .menu a.menu-block:active {
@@ -61,6 +81,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     background-color: #ffffff;
+    letter-spacing: 0.02em;
 }
 
 .contacts:hover,
@@ -69,17 +90,26 @@ a {
 }
 
 .gaslo {
+    background-color: #2e2f42;
+}
+
+.title-gaslo {
     font-size: 56px;
     line-height: 1.07;
-    color: #ffffff;
-    background-color: #2e2f42;
-    font-weight: 700;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    font-weight: 700;
 }
 
 .button-tab {
-    color: #e7e9fc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 
 .button-tab:hover,
@@ -88,37 +118,83 @@ a {
     background-color: #404bbf;
 }
 
-#team {
-    background-color: #f4f4fd;
-    text-align: center;
+.studio-criterion {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+
+.studio-criterion-descrip {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .visually-hidden {
     visibility: hidden;
 }
 
-h3 {
-    font-size: 20px;
-    line-height: 1.2;
-    background-color: #ffffff;
-    font-weight: 500;
+#team {
+    background-color: #f4f4fd;
+}
+
+.team-name {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
-p {
+.team-clast {
+    background-color: #ffffff;
+}
+
+.team-card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+team-card-parag {
     font-size: 16px;
     line-height: 1.5;
-    background-color: #ffffff;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-#portfolio {
+.portfolio-part {
     font-size: 36px;
     line-height: 1.11;
-    background-color: #ffffff;
-    font-weight: 700;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
+
+.portfolio-part-banking {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.portfolio-part-banking-app {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
 .footer-block {
     background-color: #2e2f42;
 }
@@ -130,6 +206,7 @@ p {
     line-height: 1.17;
     color: #4d5ae5;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .footer-block-studio {
@@ -139,9 +216,15 @@ p {
     line-height: 1.17;
     text-transform: uppercase;
     color: #f4f4fd;
+    letter-spacing: 0.03em;
 }
 
 .footer-block p{
     background-color: #2e2f42;
+}
+
+.footer-block-paragraph {
+    line-height: 1.5;
     color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
